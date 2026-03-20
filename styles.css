@@ -80,8 +80,11 @@ h1{
 }
 
 h2 {
-        
-
+    font-family: Playfair Display;
+    font-size: ;
+    color: var(--soft-white);
+    text-align: center;
+    
 }
 
 nav h2 {
@@ -99,11 +102,21 @@ p{}
 
 small{}
 
-body{}
+body {
+    max-width: 450px;
+    margin: 0 auto;
+}
 
-header{}
-
-header p{}
+header {
+    background-color: var(--midnight-blue);
+}
+header p {
+    font-family: Playfair Display;
+    font-size: ;
+    text-align: center;
+    color: var(--soft-white);
+    font-style: italic;
+}
 
 nav{}
 
@@ -124,20 +137,7 @@ nav{}
 
  
 
-header{
-    background-color: var(--midnight-blue);
-}
 
-header p {
-    text-align: center;
-    color: var(--soft-white);
-    font-style: italic;
-}
-
-body{
-    max-width: 450px;
-    margin: 0 auto;
-}
 
 
 
