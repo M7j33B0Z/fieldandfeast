@@ -81,26 +81,39 @@ h1{
 
 h2 {
     font-family: Playfair Display;
-    font-size: ;
-    color: var(--soft-white);
-    text-align: center;
-    
+    font-size: 2em;
+    color: var(--olive-green);
+
 }
 
-nav h2 {
-        
-
+nav ul {
+    background-color: var(--champagne-gold);
+    display: grid;
 }
 
 
 nav li {
+    font-family: Playfair Display;
+    font-size: 1.5em;
+    color: var(--dark-charcoal);
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+
 }
 
-h3{}
+h3 {
+    font-family: Playfair Display;
 
-p{}
+}
 
-small{}
+p{
+    font-family: Playfair Display;
+    font-size: 1em;
+}
+
+small{
+    font-family: Playfair Display;
+}
 
 body {
     max-width: 450px;
@@ -110,27 +123,46 @@ body {
 header {
     background-color: var(--midnight-blue);
 }
+
+header img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
 header p {
     font-family: Playfair Display;
-    font-size: ;
+    font-size: 1em;
     text-align: center;
     color: var(--soft-white);
     font-style: italic;
 }
 
-nav{}
+nav{
+    display: inline;
+}
 
-#about{}
+#about {
+    background-color: var(--olive-green);
+}
 
 
 
-    footer {
+footer {
+    background-color: var(--midnight-blue);
         
-    }
+}
 
-    footer small {
-        
-    }
+footer address {
+    font-family: Playfair Display;
+    color: var(--soft-white);
+}
+
+footer small {
+    font-family: Playfair Display;
+    color: var(--soft-white);
+}
+
 
     
 
