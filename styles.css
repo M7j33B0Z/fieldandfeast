@@ -56,10 +56,93 @@ table {
 }
 
 /* ROOT VARIABLES */
+
 :root {
+--midnight-blue: #1F2A44;
+--olive-green: #76885B;
+--champagne-gold: #E5C185;
+--linen: #F8F4EC;
+--dark-charcoal: #2B2B2B;
+--soft-white: #FAF9F6;
+
+/*font: playfair display*/
 
 }
+
 /* GLOBAL STYLES (mobile first/small) */
+
+h1{
+    font-family: Playfair Display;
+    font-size: 3em;
+    color: var(--soft-white);
+    text-align: center;
+    
+}
+
+h2 {
+        
+
+}
+
+nav h2 {
+        
+
+}
+
+
+nav li {
+}
+
+h3{}
+
+p{}
+
+small{}
+
+body{}
+
+header{}
+
+header p{}
+
+nav{}
+
+#about{}
+
+
+
+    footer {
+        
+    }
+
+    footer small {
+        
+    }
+
+    
+
+
+ 
+
+header{
+    background-color: var(--midnight-blue);
+}
+
+header p {
+    text-align: center;
+    color: var(--soft-white);
+    font-style: italic;
+}
+
+body{
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+
+
 /* MEDIA QUERY (medium) */
+
 /* MEDIA QUERY (large) */
+
 /* MEDIA QUERY (xl) */
