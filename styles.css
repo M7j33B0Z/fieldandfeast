@@ -223,6 +223,15 @@ nav ul {
 
 }
 
+#gallery {
+    border-bottom: solid 2px var(--champagne-gold);
+    padding: 1rem;
+}
+
+#gallery h2 {
+    padding: 1rem;
+    padding-left: 0rem;
+}
 
 footer {
     background-color: var(--midnight-blue);
