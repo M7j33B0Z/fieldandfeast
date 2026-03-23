@@ -82,7 +82,7 @@ h1{
 h2 {
     font-family: Playfair Display;
     font-size: 2em;
-    color: var(--olive-green);
+    color: var(--dark-charcoal);
 
 }
 
@@ -94,13 +94,14 @@ nav ul {
 
 nav li {
     font-family: Playfair Display;
-    font-size: 1.5em;
+    font-size: 1em;
     color: var(--dark-charcoal);
 
 }
 
 h3 {
     font-family: Playfair Display;
+    font-size: 1.5em;
 
 }
 
@@ -169,11 +170,54 @@ nav ul {
     padding-left: 0rem;
 }
 
-#artisan {
-    background-color: var(--olive-green);
+#offerings{
+    border-bottom: solid 2px var(--champagne-gold);
+    
 }
 
 #offerings h2{
+    padding: 1rem;
+    padding-left: 0rem;
+
+}
+
+#artisan {
+    background-color: var(--olive-green);
+    color: var(--soft-white);
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 15%;
+}
+
+#artisan h3 {
+    padding: 1rem;
+    padding-left: 0rem;
+
+}
+
+#dining {
+    background-color: var(--olive-green);
+    color: var(--soft-white);
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 15%;
+}
+
+#dining h3 {
+    padding: 1rem;
+    padding-left: 0rem;
+
+}
+
+#basket {
+    background-color: var(--olive-green);
+    color: var(--soft-white);
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 15%;
+}
+
+#basket h3 {
     padding: 1rem;
     padding-left: 0rem;
 
