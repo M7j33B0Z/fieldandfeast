@@ -233,6 +233,49 @@ nav ul {
     padding-left: 0rem;
 }
 
+#tomatoes {
+    background-color: var(--soft-white);
+    margin-bottom: 1rem;
+    border-radius: 10%;
+    box-shadow: ;
+}
+
+#olive-oil {
+    background-color: var(--soft-white);
+    margin-bottom: 1rem;
+    border-radius: 10%;
+    box-shadow: ;
+}
+
+#table {
+    background-color: var(--soft-white);
+    margin-bottom: 1rem;
+    border-radius: 10%;
+    box-shadow: ;
+}
+
+#chef {
+    background-color: var(--soft-white);
+    margin-bottom: 1rem;
+    border-radius: 10%;
+    box-shadow: ;
+}
+
+#basket-img {
+    background-color: var(--soft-white);
+    margin-bottom: 1rem;
+    border-radius: 10%;
+    box-shadow: ;
+}
+
+#view {
+    background-color: var(--olive-green);
+}
+
+#view p {
+    color: white;
+}
+
 footer {
     background-color: var(--midnight-blue);
         
