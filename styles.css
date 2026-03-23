@@ -237,43 +237,50 @@ nav ul {
     background-color: var(--soft-white);
     margin-bottom: 1rem;
     border-radius: 10%;
-    box-shadow: ;
+    box-shadow: 0.65px 5px 5px var(--dark-charcoal);
 }
 
 #olive-oil {
     background-color: var(--soft-white);
     margin-bottom: 1rem;
     border-radius: 10%;
-    box-shadow: ;
+    box-shadow: 0.65px 5px 5px var(--dark-charcoal);
+
 }
 
 #table {
     background-color: var(--soft-white);
     margin-bottom: 1rem;
     border-radius: 10%;
-    box-shadow: ;
+    box-shadow: 0.65px 5px 5px var(--dark-charcoal);
 }
 
 #chef {
     background-color: var(--soft-white);
     margin-bottom: 1rem;
     border-radius: 10%;
-    box-shadow: ;
+    box-shadow: 0.65px 5px 5px var(--dark-charcoal);
 }
 
 #basket-img {
     background-color: var(--soft-white);
     margin-bottom: 1rem;
     border-radius: 10%;
-    box-shadow: ;
+    box-shadow: 0.65px 5px 5px var(--dark-charcoal);
 }
 
 #view {
     background-color: var(--olive-green);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    margin: 0.5rem;
 }
 
 #view p {
-    color: white;
+    color: var(--soft-white);
+    text-align: center;
 }
 
 footer {
