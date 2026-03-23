@@ -96,8 +96,6 @@ nav li {
     font-family: Playfair Display;
     font-size: 1.5em;
     color: var(--dark-charcoal);
-    text-align: center;
-    grid-template-columns: 1fr 1fr 1fr;
 
 }
 
@@ -115,19 +113,26 @@ small{
     font-family: Playfair Display;
 }
 
+main{
+    background-color: var(--linen);
+}
+
 body {
     max-width: 450px;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: var(--soft-white);
 }
 
 header {
     background-color: var(--midnight-blue);
+    
+    
 }
 
 header img {
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
+    justify-content: center;
 }
 
 header p {
@@ -136,16 +141,43 @@ header p {
     text-align: center;
     color: var(--soft-white);
     font-style: italic;
+    padding: 1.5rem;
 }
 
 nav{
-    display: inline;
+    display: block;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
 }
 
 #about {
+    border-bottom: solid 2px var(--champagne-gold);
+    padding: 1rem;
+}
+
+#about h2 {
+    padding: 1rem;
+    padding-left: 0rem;
+}
+
+#artisan {
     background-color: var(--olive-green);
 }
 
+#offerings h2{
+    padding: 1rem;
+    padding-left: 0rem;
+
+}
 
 
 footer {
