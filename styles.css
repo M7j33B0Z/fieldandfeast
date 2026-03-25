@@ -116,7 +116,7 @@ h3 {
 p {
     font-family: Playfair Display;
     font-size: 1em;
-    line-height: 1.5em;
+    line-height: 1.25em;
 }
 
 small{
@@ -154,8 +154,9 @@ header p {
 
 
 #about {
-    border-bottom: solid 2px var(--champagne-gold);
-    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-bottom: solid 3px var(--champagne-gold);
 }
 
 #about h2 {
@@ -163,8 +164,15 @@ header p {
     padding-left: 0rem;
 }
 
+#about p {
+    padding-bottom: 1rem;
+}
+
 #offerings{
-    border-bottom: solid 2px var(--champagne-gold);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-bottom: solid 3px var(--champagne-gold);
+    
     
 }
 
