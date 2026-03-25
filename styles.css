@@ -221,16 +221,18 @@ header p {
     padding-bottom: 0.25rem;
 }
 
-#basket > ul{
+#basket ul{
     font-family: Playfair Display;
     line-height: 1.25em;
-    list-style-type: disc;
+    list-style: disc;
+    padding: 0.7rem;
 }
 
 
 #gallery {
     border-bottom: solid 3px var(--champagne-gold);
-    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 #gallery h2 {
@@ -243,92 +245,24 @@ header p {
     
 }
 
-
-#tomatoes {
+#figure{
     background-color: var(--soft-white);
     margin-bottom: 1rem;
     border-radius: 2.5%;
     box-shadow: 0.65px 5px 5px var(--dark-charcoal);
-    max-width: max-content;
 }
 
-#tomatoes p {
+#figcaption{
+    font-family: Playfair Display;
+    color: var(--dark-charcoal);
     padding-left: 1rem;
     padding-right: 1rem;
     text-align: center;
     font-size: 0.65em;
     font-style: italic;
-    
 }
 
-#olive-oil {
-    background-color: var(--soft-white);
-    margin-bottom: 1rem;
-    border-radius: 2.5%;
-    box-shadow: 0.65px 5px 5px var(--dark-charcoal);
-    max-width: max-content;
 
-}
-
-#olive-oil p {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    text-align: center;
-    font-size: 0.65em;
-    font-style: italic;
-    
-}
-
-#table {
-    background-color: var(--soft-white);
-    margin-bottom: 1rem;
-    border-radius: 2.5%;
-    box-shadow: 0.65px 5px 5px var(--dark-charcoal);
-    max-width: max-content;
-}
-
-#table p {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    text-align: center;
-    font-size: 0.65em;
-    font-style: italic;
-    
-}
-
-#chef {
-    background-color: var(--soft-white);
-    margin-bottom: 1rem;
-    border-radius: 2.5%;
-    box-shadow: 0.65px 5px 5px var(--dark-charcoal);
-    max-width: max-content;
-}
-
-#chef p {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    text-align: center;
-    font-size: 0.65em;
-    font-style: italic;
-    
-}
-
-#basket-img {
-    background-color: var(--soft-white);
-    margin-bottom: 1rem;
-    border-radius: 2.5%;
-    box-shadow: 0.65px 5px 5px var(--dark-charcoal);
-    max-width: max-content;
-}
-
-#basket-img p {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    text-align: center;
-    font-size: 0.65em;
-    font-style: italic;
-    
-}
 
 #view {
     background-color: var(--olive-green);
