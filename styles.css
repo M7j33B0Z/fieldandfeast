@@ -88,26 +88,35 @@ h2 {
 
 nav ul {
     background-color: var(--champagne-gold);
-    display: grid;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 
 nav li {
     font-family: Playfair Display;
-    font-size: 1em;
-    color: var(--dark-charcoal);
+    font-size: 1.25em;
+    color: var(--midnight-blue);
 
 }
 
 h3 {
     font-family: Playfair Display;
     font-size: 1.5em;
+    padding: 1rem;
+    padding-left: 0rem;
 
 }
 
-p{
+p {
     font-family: Playfair Display;
     font-size: 1em;
+    line-height: 1.5em;
 }
 
 small{
@@ -128,12 +137,10 @@ body {
 
 header {
     background-color: var(--midnight-blue);
-    
-    
 }
 
 header img {
-    justify-content: center;
+
 }
 
 header p {
@@ -145,20 +152,6 @@ header p {
     padding: 1.5rem;
 }
 
-nav{
-    display: block;
-}
-
-nav ul {
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-
-}
 
 #about {
     border-bottom: solid 2px var(--champagne-gold);
@@ -189,11 +182,6 @@ nav ul {
     border-radius: 15%;
 }
 
-#artisan h3 {
-    padding: 1rem;
-    padding-left: 0rem;
-
-}
 
 #dining {
     background-color: var(--olive-green);
@@ -203,11 +191,6 @@ nav ul {
     border-radius: 15%;
 }
 
-#dining h3 {
-    padding: 1rem;
-    padding-left: 0rem;
-
-}
 
 #basket {
     background-color: var(--olive-green);
@@ -217,11 +200,6 @@ nav ul {
     border-radius: 15%;
 }
 
-#basket h3 {
-    padding: 1rem;
-    padding-left: 0rem;
-
-}
 
 #gallery {
     border-bottom: solid 2px var(--champagne-gold);
