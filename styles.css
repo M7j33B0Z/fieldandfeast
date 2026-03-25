@@ -255,6 +255,10 @@ figure{
     box-shadow: 0.65px 5px 5px var(--dark-charcoal);
 }
 
+figure img {
+    width: 100%;
+}
+
 figcaption{
     font-family: Playfair Display;
     color: var(--dark-charcoal);
@@ -273,7 +277,6 @@ figcaption{
     padding-bottom: 1rem;
     padding-top: 0.5rem;
     margin: 0.5rem;
-    border-bottom: solid 3px var(--champagne-gold);
 }
 
 #view p {
