@@ -137,10 +137,12 @@ body {
 
 header {
     background-color: var(--midnight-blue);
+    display: inline-block;
 }
 
 header img {
-
+    justify-content: center;
+    width: fit-content;
 }
 
 header p {
@@ -269,9 +271,20 @@ figcaption{
 
 
 #view {
-    background-color: var(--olive-green);
-    margin: 0 auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-bottom: 3px solid var(--champagne-gold);
 
+
+}
+
+#view div {
+    background-color: var(--olive-green);
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 #view p {
@@ -282,7 +295,7 @@ figcaption{
 
 footer {
     background-color: var(--midnight-blue);
-    margin: 0 auto;    
+    margin-top: 1rem;
     padding: 1rem;
 }
 
@@ -295,6 +308,7 @@ footer address {
 footer small {
     font-family: Playfair Display;
     color: var(--soft-white);
+    margin: 0 auto;
 }
 
 
