@@ -296,21 +296,27 @@ figcaption{
 
 footer {
     background-color: var(--midnight-blue);
-    margin-top: 1rem;
-    padding: 1rem;
+    margin-top: 2rem;
+    padding: 3rem;
+    font-family: Playfair Display;
+    text-align: center;
+    
+}
 
+footer p {
+    color: var(--soft-white);
 }
 
 footer address {
-    font-family: Playfair Display;
-    color: var(--soft-white);
-    text-align: center;
-
+    color: var(--champagne-gold);
+    text-decoration: underline;
+    margin-bottom: 3rem;
 }
 
-footer small {
+footer  small {
     font-family: Playfair Display;
-    color: var(--soft-white);
+    color: var(--champagne-gold);
+    text-decoration: none;
     margin: 0 auto;
 
 }
@@ -338,6 +344,18 @@ footer small {
 @media screen and (min-width: 1200px){
     main{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "header header header header"
     }
+
+    #offerings {
+        "main main main main"
+        "#artisan #artisan #dining #dining"
+        "#basket #basket #basket #basket"
+        "#gallery #gallery #gallery #gallery"
+        "figure figure figure figure"
+        "#view #view #view #view"
+        "footer footer footer footer"
+
+
 }
