@@ -137,12 +137,13 @@ body {
 
 header {
     background-color: var(--midnight-blue);
-    display: inline-block;
+    display: block;
 }
 
 header img {
+    margin: 0 auto;
     justify-content: center;
-    width: fit-content;
+
 }
 
 header p {
@@ -326,36 +327,78 @@ footer  small {
 
 /* MEDIA QUERY (medium) */
 @media screen and (min-width: 600px){
-    main {
+    body {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+    header {
+        grid-column: 1 / 4;
+    }
+
+    nav {
+        grid-column: 1 / 4;
+    }
+
+    main{
+        display: grid;
+        grid-column: 1fr 1fr;
+    }
+
+      
+    #about {
+        grid-column: 1 / 2;
+    }
+
+    view {
+        grid-column: 1 / 4;
+    }
+
+    footer {
+        grid-column: 1 / 4;
+    }
+
 }
 
 /* MEDIA QUERY (large) */
 @media screen and (min-width: 900px){
-    main{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+  body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 /* MEDIA QUERY (xl) */
 @media screen and (min-width: 1200px){
-    main{
+    body {
         display: grid;
-        grid-template-areas: 
-        "header header header header"
+        grid-template-columns: 1fr 1fr;
     }
 
-    #offerings {
-        "main main main main"
-        "#artisan #artisan #dining #dining"
-        "#basket #basket #basket #basket"
-        "#gallery #gallery #gallery #gallery"
-        "figure figure figure figure"
-        "#view #view #view #view"
-        "footer footer footer footer"
+    header {
+        grid-column: 1 / 4;
+    }
 
+    nav {
+        grid-column: 1 / 4;
+    }
 
+    main{
+        display: grid;
+        grid-column: 1fr 1fr;
+    }
+
+      
+    #about {
+        grid-column: 1 / 2;
+    }
+
+    view {
+        grid-column: 1 / 4;
+    }
+
+    footer {
+        grid-column: 1 / 4;
+    }
+    
 }
