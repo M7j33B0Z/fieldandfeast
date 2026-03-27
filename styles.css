@@ -341,8 +341,7 @@ footer  small {
 
 /* MEDIA QUERY (medium) */
 @media screen and (min-width: 600px){
-   
-    
+     
     #offerings {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -375,6 +374,33 @@ footer  small {
 
 /* MEDIA QUERY (large) */
 @media screen and (min-width: 900px){
+    #offerings {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    #offerings h2 {
+        grid-column: 1 / -1;
+    }
+
+    #basket {
+        grid-column: 1 / -1;
+    }
+
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+
+    #gallery h2, #gallery p {
+        grid-column: 1 / -1;
+    }
+
+    #view {
+        grid-column: 1 / -1;
+    }
   
 }
 
