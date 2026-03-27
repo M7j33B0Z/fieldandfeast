@@ -137,11 +137,10 @@ body {
 
 header {
     background-color: var(--midnight-blue);
-    display: block;
+    
 }
 
-header img {
-    margin: 0 auto;
+.image {
     justify-content: center;
 
 }
@@ -327,78 +326,61 @@ footer  small {
 
 /* MEDIA QUERY (medium) */
 @media screen and (min-width: 600px){
-    body {
+   main {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
     header {
-        grid-column: 1 / 4;
+        grid-column: 1 / -1;
     }
 
     nav {
-        grid-column: 1 / 4;
-    }
-
-    main{
-        display: grid;
-        grid-column: 1fr 1fr;
-    }
-
-      
-    #about {
-        grid-column: 1 / 2;
-    }
-
-    view {
-        grid-column: 1 / 4;
+        grid-column: 1 / -1;
     }
 
     footer {
-        grid-column: 1 / 4;
+        grid-column: 1 / -1;
+    }
+
+    #about {
+        grid-column: 1 / -1;
+    }
+
+
+    #offerings h2 {
+        grid-column: 1 / -1;
+    }
+
+    #artisan {
+        grid-column: 1 / 1;
+    }
+
+    #dining {
+        grid-column: 2 / 2;
+    }
+
+    #basket {
+        grid-column: 1 / -1;
+    }
+
+    #gallery h2 {
+        grid-column: 1 / -1;
+    }
+
+    #view {
+        grid-column: 1 / -1;
     }
 
 }
 
 /* MEDIA QUERY (large) */
 @media screen and (min-width: 900px){
-  body {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+  
 }
 
 /* MEDIA QUERY (xl) */
 @media screen and (min-width: 1200px){
-    body {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    header {
-        grid-column: 1 / 4;
-    }
-
-    nav {
-        grid-column: 1 / 4;
-    }
-
-    main{
-        display: grid;
-        grid-column: 1fr 1fr;
-    }
-
-      
-    #about {
-        grid-column: 1 / 2;
-    }
-
-    view {
-        grid-column: 1 / 4;
-    }
-
-    footer {
-        grid-column: 1 / 4;
-    }
+    
     
 }
